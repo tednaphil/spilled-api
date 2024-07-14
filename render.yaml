@@ -5,7 +5,7 @@ databases:
 
 services:
   - type: web
-    name: mysite
+    name: spilled-api
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
