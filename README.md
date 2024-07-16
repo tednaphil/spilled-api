@@ -18,6 +18,7 @@ Things you may want to cover:
 Deployed API Link `https://spilled-api.onrender.com`
 
 ## Schema
+<img width="738" alt="Screenshot 2024-07-16 at 12 30 25 PM" src="https://github.com/user-attachments/assets/5634ec57-9b73-4ca0-9838-f6dbed08850f">
 
 
 ## Endpoints
