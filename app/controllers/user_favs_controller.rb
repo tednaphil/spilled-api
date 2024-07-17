@@ -19,6 +19,11 @@ class UserFavsController < ApplicationController
         end
     end
 
+    def destroy
+        @fav = UserFav.find(params[:id])
+        @fav.destroy
+    end
+
     def fav_params
         params.require(:fav).permit(:user_id, :tea_id)
     end
