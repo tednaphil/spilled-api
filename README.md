@@ -25,6 +25,7 @@ Deployed API Link `https://spilled-api.onrender.com`
 --- | --- | --- | ---
 `GET` | `/teas` | n/a | `[{id: 2, name: "Assam Tea", slug: "assam", style: "black",...}, ...]`
 `GET` | `/teas/:id` | n/a | `{id: 2, name: "Assam Tea", slug: "assam", style: "black",...}`
-`GET` | `/user_favs/:id` | n/a | `[{id: 1, user_id: 1, tea_id: 2}, ...]`
+`GET` | `/user_favs/:user_id` | n/a | `[{id: 1, user_id: 1, tea_id: 2}, ...]`
 `POST` | `/user_favs/` | `{fav: {user_id: 1, tea_id: 5}}` | `{id: 2, user_id: 1, tea_id: 5}`
+`DELETE` | `/user_favs/:fav_id` | n/a | n/a
 
